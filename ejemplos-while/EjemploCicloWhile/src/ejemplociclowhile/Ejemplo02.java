@@ -17,6 +17,7 @@ public class Ejemplo02 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
+        // Se usa el Locale para solo user puntos y no coma
         entrada.useLocale(Locale.US);
         int limite;
         int contador = 1;
@@ -24,7 +25,7 @@ public class Ejemplo02 {
         limite = entrada.nextInt(); 
         while (contador <= limite){
             
-            if (contador%2!=0) {
+            if (contador%2==0) {
                 System.out.printf("Contador %d\n", 
                     contador);
             }
