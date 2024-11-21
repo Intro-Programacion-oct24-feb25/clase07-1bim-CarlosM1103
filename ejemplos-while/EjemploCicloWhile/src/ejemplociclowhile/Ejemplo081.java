@@ -39,7 +39,7 @@ public class Ejemplo081 {
             entrada.nextLine(); // Ojo usamos el limpiador del scanner (buffer)
 
             // proceso para salir del ciclo.
-            System.out.println("Ingrese si para salir");
+            System.out.println("Ingrese 'si' , 'yes' , 's' o 'y' para salir");
             String temporal = entrada.nextLine();
             
             switch (temporal) {
