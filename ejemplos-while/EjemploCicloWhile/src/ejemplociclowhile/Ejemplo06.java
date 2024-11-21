@@ -30,6 +30,7 @@ public class Ejemplo06 {
         System.out.println("Ingrese las notas de los "
                 + "estudiantes de su materia");
         // true 
+        // La linea 34 y 35 son exactamente lo mismo porque es booleano
         // while (bandera) {
         while(bandera==true){
             System.out.println("Ingrese calificación");
